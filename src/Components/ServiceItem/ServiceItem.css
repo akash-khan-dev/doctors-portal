@@ -1,0 +1,16 @@
+.service-box img {
+  transform: scale(0.7);
+}
+.service-box h2 {
+  font-family: var(--poppins);
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+.service-box p {
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 20px;
+  color: var(--primary-color);
+}

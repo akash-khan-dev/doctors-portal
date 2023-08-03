@@ -1,0 +1,12 @@
+.service-header h4 {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+.service-header h1 {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 46px;
+  color: var(--primary-color);
+}

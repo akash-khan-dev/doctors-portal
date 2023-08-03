@@ -1,0 +1,40 @@
+.doctor-heading h2 {
+  font-family: var(--poppins);
+  font-weight: 500;
+  font-size: 28px;
+  color: var(--secondary-color);
+}
+.item-box {
+  margin-top: 30px;
+}
+.doctor-contact {
+  display: flex;
+  width: 60%;
+  margin-left: 100px;
+}
+.doctor-info h2 {
+  font-family: var(--poppins);
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.contact-icon {
+  width: 10%;
+}
+.contact-icon svg {
+  width: 20px;
+  height: 20px;
+}
+.contact-icon svg path {
+  fill: var(--secondary-color);
+}
+.contact-number {
+  width: 85%;
+}
+.contact-number h4 {
+  font-family: var(--poppins);
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 400;
+}

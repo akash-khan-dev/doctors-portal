@@ -1,0 +1,16 @@
+.contact {
+  background: url(../../images/appointment.png);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inputs {
+  background-color: #fff !important;
+  border-radius: 5px !important ;
+  margin-bottom: 10px !important;
+}
+.contact-from textarea {
+  border-radius: 5px;
+}

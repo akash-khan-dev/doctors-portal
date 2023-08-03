@@ -1,0 +1,15 @@
+.blog-header {
+  padding-top: 30px;
+}
+.header h2 {
+  font-family: var(--poppins);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+.header h1 {
+  font-family: var(--poppins);
+  font-size: 54px;
+  font-weight: 500;
+  color: var(--primary-color);
+}

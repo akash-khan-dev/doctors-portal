@@ -1,0 +1,36 @@
+.footer {
+  background-image: url("../../../public/images/footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+ol,
+ul {
+  padding-left: 0px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid rgb(100, 234, 185);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+.icon svg {
+  width: 20px;
+  height: 20px;
+  fill: rgb(100, 234, 185);
+  transition: all linear 0.3s;
+}
+.icon:hover {
+  background-color: rgb(100, 234, 185);
+}
+.icon:hover svg {
+  fill: #fff;
+}

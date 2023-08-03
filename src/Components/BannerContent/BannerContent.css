@@ -1,0 +1,31 @@
+.banner-box {
+  align-items: center;
+  height: 100vh;
+}
+.banner-img {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.banner-main {
+  padding: 0 15px;
+}
+
+.banner-text h1 {
+  font-family: var(--poppins);
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--primary-color);
+  padding-right: 70px;
+}
+.banner-text p {
+  font-family: var(--roboto);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--primary-color);
+  line-height: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 70px;
+}

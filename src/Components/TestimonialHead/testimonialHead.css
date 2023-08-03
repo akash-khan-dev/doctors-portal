@@ -1,0 +1,25 @@
+.testimotial-head {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.testimonial-content h3 {
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+.testimonial-content h1 {
+  font-family: var(--poppins);
+  font-weight: 500;
+  font-size: 48px;
+  color: var(--primary-color);
+  padding-top: 10px;
+  padding-right: 100px;
+}
+.testimonial-icon svg {
+  width: 200px;
+  height: 200px;
+}
+.testimonial-icon svg path {
+  fill: #c7e7d0;
+}

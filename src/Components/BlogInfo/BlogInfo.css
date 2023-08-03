@@ -1,0 +1,89 @@
+.blog-card {
+  padding: 20px 15px;
+  border: 1px solid rgb(210, 210, 210);
+  margin-top: 50px;
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 10px;
+}
+.blog-card-top {
+  display: flex;
+}
+.blog-pic {
+  width: 25%;
+}
+.pic-desing {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.pic-desing img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog-name {
+  width: 75%;
+}
+.blog-name h3 {
+  font-family: var(--poppins);
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--secondary-color);
+}
+.blog-overlay-name h3 {
+  font-family: var(--poppins);
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--primary-colo);
+}
+.blog-name h4 {
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+.blog-overlay-name h4 {
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+.blog-content h1 {
+  font-family: var(--poppins);
+  font-weight: 400;
+  font-size: 26px;
+  color: var(--primary-color);
+  padding-top: 25px;
+  line-height: 38px;
+}
+.blog-content p {
+  font-family: var(--poppins);
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--primary-color);
+  padding-top: 10px;
+}
+.blog-verlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#2be7ce, #086f63);
+  top: 0%;
+  left: 0%;
+  border-radius: 10px;
+  opacity: 0;
+  transition: all linear.3s;
+  padding: 20px 15px;
+}
+.blog-card:hover .blog-verlay {
+  opacity: 1;
+}
+
+.blog-verlay svg {
+  width: 200px;
+  height: 200px;
+}
+.blog-verlay svg path {
+  fill: var(--white-color);
+}

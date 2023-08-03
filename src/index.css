@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --roboto: "Roboto", sans-serif;
+  --poppins: "Poppins", sans-serif;
+  --white-color: #fff;
+  --primary-color: #3a4256;
+  --secondary-color: #1cc7c1;
+  --dark-color: #3a4256;
+}

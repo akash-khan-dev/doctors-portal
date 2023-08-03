@@ -1,0 +1,23 @@
+.navbar {
+  padding-top: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+.nav-item {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.navbar-nav {
+  margin-right: 40px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-family: var(--roboto);
+  font-weight: 400;
+
+  /* color: var(--white-color); */
+}
+.nav-link:last-child {
+  color: red;
+}
